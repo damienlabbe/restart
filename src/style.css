@@ -1,4 +1,16 @@
 body  {
     background-color: #123456;
     color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    width: 300px;
+}
+
+ul { 
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
