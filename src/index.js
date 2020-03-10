@@ -16,7 +16,7 @@ const Content = () => {
                 setImg(response.data.file);
             });
     }, []);
-
+    
     const generateClickHandler = (newTab) => () => {
         setTab(newTab);
     }
@@ -38,9 +38,10 @@ const Content = () => {
                     <article>
                         <h3>Formations</h3>
                         <ul>
-                            <li>J'ai un BAC S spé physique-chimie</li>
-                            <li>J'ai suivi une formation developpeur web fullstack JS spécialisation REACT chez O'clock</li>
                             <li>Je passe actuellement le titre professionel developpeur web</li>
+                            <li>Formation Developpeur Web Fullstack JS Spécialisation REACT chez O'clock 2019</li>
+                            <li>BAC S spé physique-chimie 2005</li>
+                            
                         </ul>
                     </article>
                 )}
@@ -49,9 +50,9 @@ const Content = () => {
                     <article>
                         <h3>Expériences</h3>
                         <ul>
-                            <li>Je suis en formation chez Oclock depuis {countYearsSince(2019)} ans</li>
-                            <li>J'étais gérant d'une société pendant 8 ans</li>
-                            <li>Et l'année avant ma formation, j'étais en intérim</li>
+                            <li>Formation chez Oclock depuis {countYearsSince(2019)} ans</li>
+                            <li>Intérim chez air interim à lyon de juillet 2018 à juillet 2019</li>
+                            <li>Gérant d'une société de novembre 2011 à décembre 2018</li>
                         </ul>
                     </article>
                 )}
@@ -59,9 +60,9 @@ const Content = () => {
                     <article>
                         <h3>Autre</h3>
                         <ul>
-                            <li>J'ai le permis B</li>
-                            <li>J'aime bien geeker</li>
-                            <li>J'aime bien bouquiner</li>
+                            <li>Permis B</li>
+                            <li>Geeker</li>
+                            <li>Bouquiner</li>
                         </ul>
                     </article>
                 )}
